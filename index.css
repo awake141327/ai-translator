@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------ Header ------------ */
+
+.header {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.img-worldmap {
+    width: 100%;
+    height: 213px;
+    object-fit: cover;
+}
+
+.img-parrot {
+    width: 94.88px;
+    height: 84.8px;
+}
+
+.header-logo {
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-heading {
+    font-size: 43.42px;
+    font-family: 'Big Shoulders Display';
+    font-weight: 800;
+    color: #32CD32;
+    margin: 3px 0;
+}
+
+.header-sub-heading {
+    font-size: 12.21px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+/* ------------ Header ------------ */
+
+/* ------------ Translator Input ------------ */
+
+.translator {
+    display:flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 500px;
+    margin:0px auto 30px;
+    border:4px solid #252F42;
+    border-radius: 15px;
+    padding: 24px;
+}
+
+.translator-input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.translator-heading {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #035A9D;
+    margin-bottom: 25px;
+}
+
+.translator-input {
+    padding: 15px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: 600;
+    max-width: 500px;
+    border-radius: 8px;
+    resize: none;
+    background-color: #EFF0F4;
+    border: none;
+}
+
+.translator-input::placeholder {
+    font-size: 20px;
+    font-weight: 600;
+    color: #444444;
+}
+
+/* ------------ Translator Input ------------ */
+
+/* ------------ Language ------------ */
+
+.language-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.language-heading {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #035A9D;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.languages {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+    margin-bottom: 30px;
+}
+
+.each-language-container {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.language-radio {
+    cursor: pointer;
+}
+
+.language-radio:focus {
+    outline: none;
+}
+
+.language-label {
+    font-size: 20px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    color: #333333;
+    cursor: pointer;
+}
+
+.language-flag {
+    border: 1px solid #999999;
+}
+
+.translate-button {
+    background: #035A9D;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 13px;
+    font-size: 24px;
+    font-family: 'Poppins';
+    font-weight: 700;
+    letter-spacing: 1.2px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.translate-button:focus {
+    outline: none;
+}
+
+/* ------------ Language ------------ */
